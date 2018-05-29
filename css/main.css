@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*div.container {
+	margin: 0
+	padding: 0;
+}*/
+
+nav {
+	height: 132px;
+
+}
+
+div#image {
+	height: 607px;
+	width: 600px;
+}
+
+div#search {
+	height: 158px;
+	width: 800px;
+}
+
+div#text {
+	height: 317px;
+	width: 800px;
+}
+
+div#buttons {
+	height: 225px;
+	width: 800px;
+}
+
+
+ div#wrapper{
+	display: inline-block;
+	margin: 0 auto;
+}
