@@ -53,6 +53,7 @@ h4 {
 section {
 	background-color: #f8f2d4;
 	height: 640px;
+	width: ;
 }
 
 div#image {
@@ -156,3 +157,114 @@ div.icons {
 	padding-left: 50px;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1500px) {
+
+	div#wrapper {
+		width: 550px;	
+	}
+
+	div#image {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 1315px) {
+
+	div#wrapper {
+		width: 500px;
+	}
+}
+
+@media (max-width: 1265px) {
+
+	ul, 
+	h4 {
+		font-size: 23px; 
+	}
+}
+
+@media (max-width: 1214px) {
+
+	div#image {
+		width: 400px;
+		padding-left: 25px;
+		padding-right: 100px;
+	}
+
+	div#wrapper {
+		width: 460px;
+	}
+
+	ul {
+		font-size: 20px;
+	}
+
+	ul {
+		margin-left: 80px;
+}
+
+@media (max-width: 1050px) {
+	
+	ul {
+		font-size: 18px; 
+	}
+
+	ul {
+		margin-left: 35px;
+		margin-top: 25px
+	}
+
+	div#wrapper {
+		width: 350px;
+	}
+
+	p {
+		font-size: 40px;
+	}
+
+	section {
+		height: 800px;
+	}
+}
+
+@media (max-width: 960px) {
+
+	ul {
+		margin-left: 0;
+	}
+
+	div#wrapper {
+		width: 250px;
+	}
+
+	section {
+		height: 900px;
+	}
+}
+
+@media (max-width: 925px) {
+
+	nav {
+		height: 175px;
+	}
+}
+
+@media (max-width: 840px) {
+
+	section {
+		height: 1400px;
+	}
+}
+
+@media (max-width: 650px) {
+
+	nav {
+		height: 225px;
+	}
+
+	ul {
+		font-size: 16px; 
+	}
+}
